@@ -24,6 +24,14 @@ Foundry already provides attenuation, but the default result still reads as a fa
 
 Install the module into your Foundry `Data/modules` directory as `soft-light-ease`.
 
+For Foundry manifest installation, use:
+
+```text
+https://github.com/TobbyClay/soft-light-ease/releases/latest/download/module.json
+```
+
+This URL will work after the repository has at least one GitHub Release published.
+
 Example path on Windows:
 
 ```text
@@ -38,6 +46,22 @@ scripts/module.mjs
 styles/module.css
 languages/en.json
 ```
+
+## GitHub Release Workflow
+
+This repository is configured to use GitHub Releases as the Foundry install source.
+
+Release flow:
+
+1. Update the `version` field in `module.json`
+2. Commit and push your changes
+3. Create and push a tag like `v0.1.0`
+4. GitHub Actions builds `soft-light-ease.zip` and uploads:
+
+- `module.json`
+- `soft-light-ease.zip`
+
+Once that release exists, Foundry users can install the module from the manifest URL above.
 
 ## Usage
 
@@ -97,3 +121,15 @@ If the `Light Ease` tab does not appear or the light sheet fails to render:
 4. Verify the module files listed above exist in the installed directory
 
 If another module also modifies the Ambient Light sheet or lighting shaders, incompatibilities are possible.
+
+## File Overview
+
+- [module.json](./module.json)
+- [scripts/module.mjs](./scripts/module.mjs)
+- [styles/module.css](./styles/module.css)
+- [languages/en.json](./languages/en.json)
+- [templates/ambient-light-easing.hbs](./templates/ambient-light-easing.hbs)
+
+## License
+
+MIT License. See [LICENSE](./LICENSE).
