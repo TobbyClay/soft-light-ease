@@ -1,0 +1,17 @@
+.soft-light-ease-tab .checkbox-row {
+  justify-content: flex-end;
+}
+
+.soft-light-ease-tab input[type="number"] {
+  max-width: 6rem;
+  text-align: right;
+}
+
+.soft-light-ease-tab .module-note,
+.soft-light-ease-tab .unavailable-note {
+  margin-top: 0.75rem;
+}
+
+.soft-light-ease-tab .unavailable-note i {
+  margin-right: 0.35rem;
+}

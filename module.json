@@ -1,0 +1,30 @@
+{
+  "id": "soft-light-ease",
+  "type": "module",
+  "title": "Soft Light Ease",
+  "description": "Adds a dedicated Ambient Light tab for easing bright-to-dim and dim-to-dark transitions with separate shader controls.",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Victo"
+    }
+  ],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14.359",
+    "maximum": "14"
+  },
+  "esmodules": [
+    "scripts/module.mjs"
+  ],
+  "styles": [
+    "styles/module.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ]
+}

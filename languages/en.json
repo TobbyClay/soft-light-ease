@@ -1,0 +1,17 @@
+{
+  "SOFTLIGHTEASE.Tabs.easing": "Light Ease",
+  "SOFTLIGHTEASE.Fields.enabled.label": "Enable Light Ease",
+  "SOFTLIGHTEASE.Fields.enabled.hint": "Apply the module's custom transition shader to this ambient light. When disabled, Foundry's normal attenuation is used.",
+  "SOFTLIGHTEASE.Fields.inner.label": "Bright to Dim Ease",
+  "SOFTLIGHTEASE.Fields.inner.hint": "Controls how broadly the bright region blends into dim light. If you leave it alone, the current attenuation value of {ease} is a good starting point.",
+  "SOFTLIGHTEASE.Fields.outer.label": "Dim to Dark Ease",
+  "SOFTLIGHTEASE.Fields.outer.hint": "Controls how early the light starts fading from dim light into darkness. If you leave it alone, the current attenuation value of {ease} is a good starting point.",
+  "SOFTLIGHTEASE.Fields.curve.label": "Easing Curve",
+  "SOFTLIGHTEASE.Fields.curve.hint": "Choose the interpolation curve used for both transitions.",
+  "SOFTLIGHTEASE.Curves.linear": "Linear",
+  "SOFTLIGHTEASE.Curves.smooth": "Smoothstep",
+  "SOFTLIGHTEASE.Curves.smoother": "Smootherstep",
+  "SOFTLIGHTEASE.Curves.cosine": "Cosine",
+  "SOFTLIGHTEASE.Note": "This tab only affects ambient lights with Light Ease enabled. It preserves Foundry's existing light animations, but replaces the bright-to-dim and dim-to-dark transition math for that light.",
+  "SOFTLIGHTEASE.Unavailable": "Light Ease is only available for regular ambient lights. Darkness sources continue to use their normal Foundry behavior."
+}
