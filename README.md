@@ -97,15 +97,3 @@ If the `Light Ease` tab does not appear or the light sheet fails to render:
 4. Verify the module files listed above exist in the installed directory
 
 If another module also modifies the Ambient Light sheet or lighting shaders, incompatibilities are possible.
-
-## File Overview
-
-- [module.json](./module.json)
-- [scripts/module.mjs](./scripts/module.mjs)
-- [styles/module.css](./styles/module.css)
-- [languages/en.json](./languages/en.json)
-- [templates/ambient-light-easing.hbs](./templates/ambient-light-easing.hbs)
-
-## License
-
-No license file is currently included. Add one before distributing the module publicly.
